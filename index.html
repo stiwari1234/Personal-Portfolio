@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sumit Tiwari | Portfolio</title>
+  <meta name="description" content="Sumit Tiwari – Java & Web Developer. Projects in Java Swing, MySQL, and modern web (HTML, CSS, JS)." />
+  <meta name="author" content="Sumit Tiwari" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a href="#main" class="skip">Skip to content</a>
+  <header>
+    <div class="container nav">
+      <div class="brand">
+        <span class="dot"></span>
+        <span>Sumit Tiwari</span>
+      </div>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#certs">Certifications</a>
+        <a href="#contact">Contact</a>
+        <a href="https://drive.google.com/file/d/1FpmxNdQMT7yIvWbcWEyrIByt2F2RXex3/view?usp=drive_link" target="_blank" class="btn">Download Résumé</a>
+        <button id="themeBtn" class="btn ghost" aria-label="Toggle theme">🌗</button>
+      </div>
+      <button class="hamburger" aria-label="Open menu" id="hamburger">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ===== Hero ===== -->
+    <section id="hero">
+      <canvas id="particles" aria-hidden="true"></canvas>
+      <div class="container inner">
+        <div class="kard reveal" style="padding:28px;">
+          <h1 class="hero-title"><span class="type" id="typewriter"></span></h1>
+          <p class="hero-sub">Java Developer • Web Developer • Problem Solver</p>
+          <div class="hero-actions">
+            <a class="btn" href="#projects">View My Work</a>
+            <a class="btn ghost" href="#contact">Let’s Connect</a>
+          </div>
+          <div style="margin-top:18px; display:flex; gap:10px; flex-wrap:wrap;">
+            <span class="pill">B.Tech CSE @ Galgotias University (CGPA 8.15)</span>
+            <span class="pill">DSA • OOPs • DBMS</span>
+            <span class="pill">HTML • CSS • JavaScript • Java</span>
+          </div>
+        </div>
+        <div class="kard avatar-card reveal">
+          <div class="avatar" style="background-image:url('me.jpeg'); background-size:cover; background-position:center;">
+
+          </div>
+          <div class="muted">Sumit Tiwari</div>
+          <div class="muted">Greater Noida, India</div>
+          <div style="margin-top:12px" class="socials">
+            <a class="iconbtn" href="mailto:sumittiwariji2004@gmail.com" title="Email">✉️</a>
+            <a class="iconbtn" href="tel:+916398248545" title="Call">📞</a>
+            <a class="iconbtn" href="https://www.linkedin.com/in/sumit-tiwari-6baa41253/" target="_blank" title="LinkedIn">in</a>
+            <a class="iconbtn" href="https://github.com/stiwari1234" target="_blank" title="GitHub">🐙</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== About ===== -->
+    <section id="about">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="h2">About Me</h2>
+          <span class="muted">A quick snapshot</span>
+        </div>
+        <div class="grid two">
+          <div class="card reveal hover-rise">
+            <h3 style="margin-top:0">Hello! I’m Sumit 👋</h3>
+            <p>I’m a Computer Science undergrad focused on building clean, practical software. I enjoy solving problems with <b>Java</b> and bringing ideas to life with <b>HTML, CSS, and JavaScript</b>. I’ve built desktop and web apps, including an Employee Management System and a Currency Converter, and I’m constantly learning and refining my craft.</p>
+            <p style="margin-bottom:0" class="muted">Currently seeking roles that value learning, ownership, and impact.</p>
+          </div>
+          <div class="card reveal">
+            <h3 style="margin-top:0">Education</h3>
+            <ul style="margin:0; padding-left:18px;">
+              <li><b>Galgotias University, Greater Noida</b> — B.Tech in CSE (2022–2026) • CGPA: 8.15</li>
+              <li><b>Heritage Children Academy, Milak</b> — CBSE 12th (PCM), 2022: 84.8%</li>
+              <li><b>Heritage Children Academy, Milak</b> — CBSE 10th, 2020: 85.6%</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Skills ===== -->
+    <section id="skills">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="h2">Skills</h2>
+          <span class="muted">Tech I use</span>
+        </div>
+        <div class="grid skills">
+          <div class="skill reveal"><b>Java</b><span class="chip">Primary</span></div>
+          <div class="skill reveal"><b>HTML</b><span class="chip">Web</span></div>
+          <div class="skill reveal"><b>CSS</b><span class="chip">Web</span></div>
+          <div class="skill reveal"><b>JavaScript</b><span class="chip">Web</span></div>
+          <div class="skill reveal"><b>Git</b><span class="chip">Tools</span></div>
+          <div class="skill reveal"><b>VS Code</b><span class="chip">Tools</span></div>
+          <div class="skill reveal"><b>Data Structures & Algorithms</b><span class="chip">Core</span></div>
+          <div class="skill reveal"><b>OOPs</b><span class="chip">Core</span></div>
+          <div class="skill reveal"><b>DBMS</b><span class="chip">Core</span></div>
+          <div class="skill reveal"><b>Teamwork</b><span class="chip">Soft</span></div>
+          <div class="skill reveal"><b>Communication</b><span class="chip">Soft</span></div>
+          <div class="skill reveal"><b>Time Management</b><span class="chip">Soft</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Projects ===== -->
+    <section id="projects">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="h2">Projects</h2>
+          <span class="muted">Selected work</span>
+        </div>
+
+        <div class="grid two">
+          <div class="card project reveal hover-rise">
+            <div class="thumb" style="background-image:url('employee-management.png'); background-size: cover;  
+            background-position: center; 
+            background-repeat: no-repeat; 
+            border-radius: 20px; 
+            width: 100%; 
+            height: 200px;  
+            overflow: hidden;"></div>
+            <div>
+              <div class="tag">Java • Swing • MySQL</div> <br>
+              
+              <h3 style="margin: 6px 0 6px;">Employee Management System <span class="muted" style="font-weight:400; font-size:14px">(Feb 2025)</span></h3>
+              <p>Desktop app with CRUD for employee records using <b>Java Swing</b> UI and <b>MySQL</b> for persistent storage. Implemented with <b>JDBC</b>, and built with clean, user-friendly screens. Future scope: authentication, role-based access, and web/cloud migration for scalability.</p>
+              <div class="meta" style="margin: 10px 0 14px;">
+                <span class="chip">CRUD</span>
+                <span class="chip">JDBC</span>
+                <span class="chip">AWT/Swing</span>
+              </div>
+              <a class="btn" target="_blank" href="https://github.com/stiwari1234/Employee-Managament-System">GitHub Repo</a>
+            </div>
+          </div>
+
+          <div class="card project reveal hover-rise">
+            <div class="thumb" style="background-image:url('Currency-Converter.png'); background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            border-radius: 20px; 
+            width: 100%;                  
+            height: 200px;
+            "></div>
+            <div>
+              <div class="tag">HTML • CSS • JavaScript</div> <br>
+              <h3 style="margin: 6px 0 6px;">Currency Converter <span class="muted" style="font-weight:400; font-size:14px">(July 2025)</span></h3>
+              <p>Responsive web app for real-time currency conversion built with <b>HTML</b>, <b>CSS</b>, and <b>vanilla JavaScript</b>. Clean interface using Flexbox and DOM manipulation. Planned enhancements: historical tracking, PWA support, and dark mode.</p>
+              <div class="meta" style="margin: 10px 0 14px;">
+                <span class="chip">Responsive UI</span>
+                <span class="chip">DOM</span>
+                <span class="chip">Web App</span>
+              </div>
+              <a class="btn" target="_blank" href="https://github.com/stiwari1234/Currency-Converter">GitHub Repo</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===== Certifications ===== -->
+    <section id="certs">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="h2">Certifications</h2>
+          <span class="muted">Verified learning</span>
+        </div>
+        <div class="grid three">
+          <div class="cert reveal">
+            <div>
+              <b>Java Full Stack Developer (AICTE)</b>
+              <div class="muted">Credential</div>
+            </div>
+            <a class="btn" target="_blank" href="https://drive.google.com/file/d/1LbXjJ9SkF_l5fwV8bn0NbaJb3murNFwh/view?usp=drive_link">View</a>
+          </div>
+          <div class="cert reveal">
+            <div>
+              <b>Web Full Stack Developer (AICTE)</b>
+              <div class="muted">Credential</div>
+            </div>
+            <a class="btn" target="_blank" href="https://drive.google.com/file/d/15m0WLX03fGyWwEGrkiimZ_HohFTbRqDP/view?usp=drive_link">View</a>
+          </div>
+          <div class="cert reveal">
+            <div>
+              <b>Java Programming (Oracle)</b>
+              <div class="muted">Credential</div>
+            </div>
+            <a class="btn" target="_blank" href="https://drive.google.com/file/d/1-m88wsFgQ2Os_nnfAEUNe_LwAisAJVaJ/view?usp=drive_link">View</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section id="contact">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="h2">Contact</h2>
+          <span class="muted">Let’s build something</span>
+        </div>
+        <div class="contact">
+          <div class="card reveal">
+            <h3 style="margin-top:0">Get in touch</h3>
+            <p class="muted">I’m open to software development roles, internships, and freelance work. Prefer roles where I can learn fast and contribute meaningfully.</p>
+            <div class="socials" style="margin: 8px 0 18px;">
+              <a class="iconbtn" href="mailto:sumittiwariji2004@gmail.com" title="Email">✉️</a>
+              <a class="iconbtn" href="tel:+916398248545" title="Call">📞</a>
+              <a class="iconbtn" href="https://www.linkedin.com/in/sumit-tiwari-6baa41253/" target="_blank" title="LinkedIn">in</a>
+              <a class="iconbtn" href="https://github.com/stiwari1234" target="_blank" title="GitHub">🐙</a>
+            </div>
+            <form id="contactForm" onsubmit="return false;">
+              <div style="display:grid; grid-template-columns: 1fr 1fr; gap:12px;">
+                <input aria-label="Your name" required placeholder="Your name" class="card" style="padding:12px;" />
+                <input aria-label="Your email" type="email" required placeholder="Your email" class="card" style="padding:12px;" />
+              </div>
+              <textarea aria-label="Your message" required placeholder="Your message" class="card" style="margin-top:12px; padding:12px; min-height:120px;"></textarea>
+              <button class="btn" style="margin-top:12px;" id="sendBtn">Send Message</button>
+              <div id="formMsg" class="muted" style="margin-top:8px;"></div>
+            </form>
+          </div>
+          <div class="card reveal">
+            <h3 style="margin-top:0">Quick Links</h3>
+            <ul style="margin:0; padding-left:18px;">
+              <li><a href="#projects">See my projects</a></li>
+              <li><a href="https://github.com/stiwari1234" target="_blank">GitHub profile</a></li>
+              <li><a href="https://www.linkedin.com/in/sumit-tiwari-6baa41253/" target="_blank">LinkedIn</a></li>
+              <li><a href="mailto:sumittiwariji2004@gmail.com">Email me</a></li>
+              <li><a href="https://drive.google.com/file/d/1FpmxNdQMT7yIvWbcWEyrIByt2F2RXex3/view?usp=drive_link" target="_blank">Download Résumé</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">© <span id="year"></span> Sumit Tiwari • Built with HTML, CSS & JS</div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+  </script>
+</body>
+</html>
